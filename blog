@@ -1,0 +1,18 @@
+---
+layout: page
+title: My Blog
+---
+
+<p>Here are my latest weekly posts and personal experiences:</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+    </li>
+  {% endfor %}
+</ul>
