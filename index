@@ -1,0 +1,14 @@
+---
+layout: default
+title: Home
+---
+
+<div class="profile-section">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Picture" class="profile-pic">
+    
+    <div class="profile-info">
+        <h2>Hi, I'm [Your Name]!</h2>
+        <p>Welcome to my personal space. I am a [Your Profession/Student] passionate about [Your Interests].</p>
+        <p>This is my static homepage where you can find basic information about me. If you want to read my weekly updates and articles, head over to the <a href="{{ '/blog.html' | relative_url }}">Blog section</a>!</p>
+    </div>
+</div>
