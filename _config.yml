@@ -1,0 +1,6 @@
+title: My Personal Blog
+author: Your Name
+description: Welcome to my personal website and blog.
+url: "" # Leave empty for now, GitHub will handle it
+permalink: /blog/:year/:month/:title/
+theme: minima # Optional basic fallback
