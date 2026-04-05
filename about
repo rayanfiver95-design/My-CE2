@@ -1,0 +1,14 @@
+---
+layout: page
+title: About Me
+---
+
+### Who am I?
+
+Write your detailed biography here. You can easily add pictures in markdown like this:
+
+![About Me Picture]({{ '/assets/images/about-pic.jpg' | relative_url }})
+
+* I love coding.
+* I love writing.
+* I am currently learning how to build sites on GitHub Pages.
