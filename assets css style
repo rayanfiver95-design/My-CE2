@@ -1,0 +1,71 @@
+/* Basic Page Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+header {
+    background: #24292e; /* GitHub Dark Theme Color */
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+/* Profile Section for Index Page */
+.profile-section {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 3px solid #007bff;
+}
+
+/* Blog Post List Styling */
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-list li {
+    background: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 5px solid #007bff;
+}
